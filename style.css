@@ -364,6 +364,24 @@ nav{
       cursor: pointer;
       border-radius: 10px;
   }
+.mobile{
+      display: none;
+      height: 100vh;
+      width: 100%;
+      font-size: 2.1rem;
+  }
+
+  @media(max-width:800px){
+      main,nav,body::before{
+          display:none;
+      }
+      .mobile{
+          display:block;
+          text-align: center;
+          margin-top: 70%;
+          
+      }
+  }
 
 
   
