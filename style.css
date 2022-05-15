@@ -378,8 +378,9 @@ nav{
       .mobile{
           display:block;
           text-align: center;
-          margin-top: 70%;
-          
+      }
+      .mobile p{
+        padding-top: 70%;
       }
   }
 
